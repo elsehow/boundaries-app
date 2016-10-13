@@ -3,7 +3,8 @@
   "private": true,
   "scripts": {
     "start": "meteor run",
-    "test": "meteor test --driver-package practicalmeteor:mocha"
+    "test": "meteor test --driver-package practicalmeteor:mocha",
+    "deploy": "DEPLOY_HOSTNAME=us-east-1.galaxy-deploy.meteor.com meteor deploy nofone2.cosmopol.is --settings settings.json --owner elsehow"
   },
   "dependencies": {
     "bcrypt": "^0.8.7",
